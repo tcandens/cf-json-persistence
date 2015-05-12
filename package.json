@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node lib/app.js",
+    "test": "gulp test"
   },
   "author": "",
   "license": "ISC",

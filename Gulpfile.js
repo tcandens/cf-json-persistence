@@ -9,7 +9,7 @@ gulp.task('lint', function() {
 });
 
 gulp.task('test', function() {
-  return gulp.src('./lib/**/*.js')
+  return gulp.src('./test/**/*.js')
     .pipe( mocha({ reporter: 'nyan' }) )
     .on( 'end', function() {
       process.exit();
